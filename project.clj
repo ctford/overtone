@@ -42,6 +42,9 @@
 (defproject overtone "0.8.0-SNAPSHOT"
   :description "Collaborative Programmable Music. (http://overtone.github.com)"
   :url "http://overtone.github.com/"
+  :license {:name "The MIT License"
+            :url "http://opensource.org/licenses/MIT" 
+            :distribution :repo}
   :dependencies [[org.clojure/clojure "1.3.0"]
                  [org.clojure/core.incubator "0.1.0"]
                  [org.clojure/data.json "0.1.2"]
